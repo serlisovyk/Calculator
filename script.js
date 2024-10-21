@@ -38,3 +38,24 @@ function handleCalculation(e) {
       displayInput.innerText = currentInput
   }
 }
+
+document.addEventListener('keydown', e => {
+  const key = e.key
+
+  switch (key) {
+    case 'Enter':
+      handleCalculation({ target: { innerText: '=' } })
+      break
+    case 'Backspace':
+      handleCalculation({ target: { innerText: '←' } })
+      break
+    case 'Escape':
+      handleCalculation({ target: { innerText: 'AC' } })
+      break
+    default:
+      if (!isNaN(Number(key)) || operators.includes(key)) {
+        handleCalculation({ target: { innerText: key } })
+      }
+      break
+  }
+})
