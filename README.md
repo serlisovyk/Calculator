@@ -18,8 +18,7 @@ https://calculator5105.netlify.app/
 
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="40" height="40" alt="JS" />
 
-  <br>
-  <br>
+  <img width="12" />
 
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="40" height="40" alt="Git" />
 </p>
