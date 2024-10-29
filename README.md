@@ -22,3 +22,7 @@ https://calculator5105.netlify.app/
 
   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="40" height="40" alt="Git" />
 </p>
+
+# How to copy
+
+<p align="left">git clone https://github.com/serlisovyk/Calculator.git</p>
